@@ -1,0 +1,273 @@
+---
+title: "Homicídios nos EUA"
+author: "Azzure Alves"
+format: revealjs
+editor: visual
+---
+
+## Introdução
+
+Este estudo analisa dados de homicídios nos Estados Unidos e pretende verificar a relação entre cor/etnia com idade e os estados.
+
+```{r echo=TRUE, message=FALSE}
+library(data.table)
+library(ggplot2)
+```
+
+## Carregamento e Preparação dos Dados
+
+Nesta primeira parte, carregamos os dados, tratamos e realizamos as transformações necessárias para a análise.
+
+```{r echo=TRUE}
+dados <- fread("homicide-data.csv")
+
+dados[, c("uid", "victim_last", "victim_first", "lat", "lon") := NULL]
+dados <- dados[complete.cases(dados)]
+
+dados <- dados[victim_age != "Unknown"]
+dados <- dados[victim_race != "Unknown"]
+
+setnames(dados, c("reported_date", "victim_race", "victim_age", "victim_sex", "city", "state", "disposition"),
+
+c("data", "Race", "idade", "sexo", "cidade", "estado", "situacao"))
+
+dados[estado == "wI", estado := "WI"]
+
+dados[Race == "Asian", Race := "Asiáticos"]
+dados[Race == "Black", Race := "Pretos"]
+dados[Race == "Hispanic", Race := "Latinos"]
+dados[Race == "Other", Race := "Outros"]
+dados[Race == "White", Race := "Brancos"]
+dados[, idade := as.numeric(idade)]
+
+dados[, faixa_etaria := cut(idade, breaks = c(-1, 18, 30, 50, 102), labels = c("0-18", "19-30", "31-50", "51+"))]
+
+
+```
+
+## Criando uma nova variável
+
+```{r echo=TRUE}
+
+distribuicao_local <- dados[, .N, by = .(cidade, estado)]
+
+distribuicao_situacao <- dados[, .N, by = situacao]
+
+dados[cidade == "Tulsa", estado := "OK"]
+
+distribuicao_local <- dados[, .N, by = .(cidade, estado)]
+
+distribuicao_idades <- dados[, .N, by = faixa_etaria]
+
+distribuicao_CorxEstado <- dados[, .N, by = .(Race, estado)]
+
+distribuicao_corxidade <- dados[, .N, by = .(Race, faixa_etaria)]
+
+
+```
+
+## Outliers
+
+Muitos outliers foram encontrados através do box-plot e isso se deve à alta quantidade de pessoas com menos de um ano que aparecem nos dados.
+
+```{r echo=FALSE, message=FALSE}
+
+# Box-plot da idade
+
+ggplot(dados, aes(y = idade)) +
+
+geom_boxplot() +
+
+labs(title = "Box-Plot das idades", y = "Idade") +
+
+theme_minimal()
+```
+
+## Histograma das idades
+
+```{r echo=FALSE, message=FALSE}
+
+# Histograma da coluna "idade"
+
+ggplot(dados, aes(x = idade)) +
+geom_histogram(fill = "pink", color = "black") +
+labs(title = "Histograma das idades", x = "Idade") +
+theme_minimal()
+```
+
+## Homicídios por feixa etária
+
+```{r echo=FALSE, message=FALSE}
+# Histograma da coluna "faixa_etaria"
+
+ggplot(dados, aes(x = faixa_etaria)) +
+geom_bar(fill = "pink", color = "black") +
+labs(title = "Distribuição dos homicídios por faixa etária", x = "Faixa etária", y = " ") +
+theme_minimal()
+```
+
+## Homicídios por estado
+
+```{r echo=FALSE}
+ggplot(distribuicao_CorxEstado, aes(x = estado, y = N, fill = Race)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = c("yellow", "pink", "brown", "grey", "black"), name = "Cor ou etnia") +
+  labs(title = " ", x = "", y = "") +
+  theme_minimal() +
+  theme(
+    legend.key.size = unit(0.5, "cm"),  # Reduz o tamanho da chave da legenda
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    legend.position = "right"  # Ajusta a posição da legenda
+  )
+```
+
+## Pretos mortos por estado
+
+```{r echo=FALSE}
+ggplot(distribuicao_CorxEstado[distribuicao_CorxEstado$Race == "Pretos", ], 
+       aes(x = estado, y = N, fill = Race)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = c("black"), name = "Cor ou etnia") +
+  labs(title = "", 
+       x = "", y = "") +
+  theme_minimal() +
+  theme(
+    legend.key.size = unit(0.5, "cm"),
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    legend.position = "right"
+  )
+```
+
+## Mortes de outras cores/etnias
+
+```{r echo=FALSE}
+ggplot(distribuicao_CorxEstado[distribuicao_CorxEstado$Race != "Pretos", ], 
+       aes(x = estado, y = N, fill = Race)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = c("yellow", "pink", "brown", "grey"), name = "Cor ou etnia") +
+  labs(title = " ", 
+       x = "", y = "") +
+  theme_minimal() +
+  theme(
+    legend.key.size = unit(0.5, "cm"),
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    legend.position = "right"
+  )
+```
+
+## Dados sobre cor e etnia no estado de Ilinois
+
+Os dados cobrem os anos de 2013 a 2017.
+
+```{r echo=TRUE}
+data_race <- fread("Race and Ethnicity.csv")
+
+# Removendo colunas e linhas desnecessárias
+
+data_race[, c("ID Year", "Geography", "ID Geography", "Slug Geography", "share", "Hispanic Population Moe") := NULL]
+
+data_race <- data_race[!Year %in% c("2018", "2019", "2020", "2021", "2022")]
+
+# Realiza a substituição para garantir que as raças estejam corretas
+
+data_race[`ID Ethnicity` == 1, Race := "Latinos"]
+
+data_race[Race == "White Alone", Race := "Brancos"]
+
+data_race[Race == "Black or African American Alone", Race := "Pretos"]
+
+data_race[Race == "Native Hawaiian & Other Pacific Islander Alone", Race := "Outros"]
+
+data_race[Race == "Some Other Race Alone", Race := "Outros"]
+
+data_race[Race == "Two or More Races", Race := "Outros"]
+
+data_race[Race == "Asian Alone", Race := "Asiáticos"]
+
+data_race[Race == "American Indian & Alaska Native Alone", Race := "Outros"]
+
+# Resumo dos dados de população por raça
+
+data_race_summarized <- data_race[, .(TotalPopulation = sum(Population)), by = Race]
+
+# Calcular o total geral da população
+
+total_population <- sum(data_race_summarized$TotalPopulation)
+
+# Calcular o percentual de cada "Race" em relação ao total geral
+
+data_race_summarized[, Percent := (TotalPopulation / total_population) * 100]
+
+# Unindo os dados de homicídios com os dados de etnia
+
+distribuicao_Il <- distribuicao_CorxEstado[estado == "IL"]
+
+# Unir os dois datasets pela coluna "Race"
+
+data_combined <- merge(data_race_summarized, distribuicao_Il, by = "Race")
+
+# Calcular o coeficiente de homicídios ponderado pelo percentual da população
+
+total_homicidios <- sum(distribuicao_Il$N)
+
+data_combined[, Coeficiente := (N / total_homicidios) * 100]
+```
+
+## Homicídios em Ilinois
+
+```{r echo=FALSE}
+ggplot(distribuicao_Il, aes(x = estado, y = N, fill = Race)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_manual(values = c("yellow", "pink", "brown", "grey", "black"), name = "Cor ou etnia") +
+  labs(title = "Distribuição de cor/etnia em Ilinois", x = "", y = "") +
+  geom_text(aes(label = round(N, 1)), 
+            position = position_dodge(width = 0.9),  # Garante alinhamento correto
+            vjust = -0.5, size = 3) + 
+  theme_minimal() +
+  theme(
+    legend.key.size = unit(0.5, "cm"),  # Reduz o tamanho da chave da legenda
+    legend.position = "right"          # Ajusta a posição da legenda
+  )
+
+```
+
+## Comparando as mortes com o percentual populacional
+
+```{r echo=FALSE, message=FALSE}
+
+ggplot(data_combined, aes(x = Race, y = Coeficiente, fill = Race)) +
+
+geom_bar(stat = "identity") + # Usando barras para mostrar os coeficientes
+
+scale_fill_manual(values = c("yellow", "pink", "brown", "grey", "black"), name = "Cor/etnia") +
+
+labs(title = "Distribuição a cada 100 homicídios",
+
+x = "", y ="Porcentagem (%)") +
+
+geom_text(aes(label = round(Coeficiente, 1)), vjust = -0.5, size = 3.5) + # Adiciona os números acima das barras
+
+theme_minimal()
+```
+
+## Comparando as mortes com o percentual populacional
+
+```{r echo=FALSE, message=FALSE}
+ggplot(data_combined, aes(x = Race, y = Percent, fill = Race)) +
+
+geom_bar(stat = "identity") + # Usando barras para mostrar os coeficientes
+
+scale_fill_manual(values = c("yellow", "pink", "brown", "grey", "black"), name = "Cor/etnia") +
+
+labs(title = "Percentual populacional",
+
+x = "", y ="Porcentagem (%)") +
+
+geom_text(aes(label = round(Percent, 1)), vjust = -0.5, size = 3.5) + # Adiciona os números acima das barras
+
+theme_minimal()
+```
+
+## Conclusões
+
+Para exemplificar, se pudessemos tentar prever quantas pessoas seriam assassinadas no estado de Ilinois tendo a informação da cor ou etnia, a cada 10.000 pessoas pretas, 545 seriam assassinadas, para latinos seriam 108 e somente 7 se fossem brancos.

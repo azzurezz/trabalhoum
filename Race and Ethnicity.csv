@@ -1,0 +1,141 @@
+ID Race,Race,ID Ethnicity,Ethnicity,ID Year,Year,Hispanic Population Moe,Geography,ID Geography,Slug Geography,Population,share
+0,"White Alone",0,"Not Hispanic or Latino",2022,"2022",3609,"Illinois","04000US17","illinois",7601615,0.5958483367684008
+0,"White Alone",1,"Hispanic or Latino",2022,"2022",12170,"Illinois","04000US17","illinois",787044,0.0616920033918515
+1,"Black or African American Alone",0,"Not Hispanic or Latino",2022,"2022",4802,"Illinois","04000US17","illinois",1744151,0.13671429984588052
+1,"Black or African American Alone",1,"Hispanic or Latino",2022,"2022",2316,"Illinois","04000US17","illinois",30454,0.0023871197433630717
+2,"American Indian & Alaska Native Alone",0,"Not Hispanic or Latino",2022,"2022",798,"Illinois","04000US17","illinois",10119,0.000793172150886285
+2,"American Indian & Alaska Native Alone",1,"Hispanic or Latino",2022,"2022",3166,"Illinois","04000US17","illinois",45700,0.0035821689194093513
+3,"Asian Alone",0,"Not Hispanic or Latino",2022,"2022",3808,"Illinois","04000US17","illinois",731197,0.057314467557228875
+3,"Asian Alone",1,"Hispanic or Latino",2022,"2022",823,"Illinois","04000US17","illinois",6874,0.0005388146422761462
+4,"Native Hawaiian & Other Pacific Islander Alone",0,"Not Hispanic or Latino",2022,"2022",431,"Illinois","04000US17","illinois",2979,0.00023350724750372993
+4,"Native Hawaiian & Other Pacific Islander Alone",1,"Hispanic or Latino",2022,"2022",636,"Illinois","04000US17","illinois",2497,0.00019572594730339496
+5,"Some Other Race Alone",0,"Not Hispanic or Latino",2022,"2022",2707,"Illinois","04000US17","illinois",40167,0.003148467811507996
+5,"Some Other Race Alone",1,"Hispanic or Latino",2022,"2022",12602,"Illinois","04000US17","illinois",802386,0.06289457747416174
+6,"Two or More Races",0,"Not Hispanic or Latino",2022,"2022",6945.358234101392,"Illinois","04000US17","illinois",351702,0.02756796440468507
+6,"Two or More Races",1,"Hispanic or Latino",2022,"2022",11694.176713219276,"Illinois","04000US17","illinois",600749,0.04708937409554154
+0,"White Alone",0,"Not Hispanic or Latino",2021,"2021",2623,"Illinois","04000US17","illinois",7721282,0.6021989245982607
+0,"White Alone",1,"Hispanic or Latino",2021,"2021",10858,"Illinois","04000US17","illinois",978131,0.07628648148276691
+1,"Black or African American Alone",0,"Not Hispanic or Latino",2021,"2021",4809,"Illinois","04000US17","illinois",1773138,0.13829073938295622
+1,"Black or African American Alone",1,"Hispanic or Latino",2021,"2021",2094,"Illinois","04000US17","illinois",30875,0.0024080057945003565
+2,"American Indian & Alaska Native Alone",0,"Not Hispanic or Latino",2021,"2021",752,"Illinois","04000US17","illinois",10358,0.0008078420735039577
+2,"American Indian & Alaska Native Alone",1,"Hispanic or Latino",2021,"2021",2555,"Illinois","04000US17","illinois",32356,0.0025235120805458637
+3,"Asian Alone",0,"Not Hispanic or Latino",2021,"2021",3656,"Illinois","04000US17","illinois",718559,0.05604191856487066
+3,"Asian Alone",1,"Hispanic or Latino",2021,"2021",863,"Illinois","04000US17","illinois",6923,0.0005399392426016508
+4,"Native Hawaiian & Other Pacific Islander Alone",0,"Not Hispanic or Latino",2021,"2021",394,"Illinois","04000US17","illinois",3048,0.0002377198918748854
+4,"Native Hawaiian & Other Pacific Islander Alone",1,"Hispanic or Latino",2021,"2021",500,"Illinois","04000US17","illinois",2063,0.0001608976827224044
+5,"Some Other Race Alone",0,"Not Hispanic or Latino",2021,"2021",2182,"Illinois","04000US17","illinois",34562,0.002695562632211217
+5,"Some Other Race Alone",1,"Hispanic or Latino",2021,"2021",12378,"Illinois","04000US17","illinois",761418,0.05938458157204445
+6,"Two or More Races",0,"Not Hispanic or Latino",2021,"2021",6266.819448492193,"Illinois","04000US17","illinois",310790,0.024239161809644236
+6,"Two or More Races",1,"Hispanic or Latino",2021,"2021",9131.711613930875,"Illinois","04000US17","illinois",438310,0.0341847131914964
+0,"White Alone",0,"Not Hispanic or Latino",2020,"2020",2612,"Illinois","04000US17","illinois",7737459,0.6084743008976606
+0,"White Alone",1,"Hispanic or Latino",2020,"2020",10849,"Illinois","04000US17","illinois",1136608,0.08938293026104413
+1,"Black or African American Alone",0,"Not Hispanic or Latino",2020,"2020",4794,"Illinois","04000US17","illinois",1766586,0.13892444293735123
+1,"Black or African American Alone",1,"Hispanic or Latino",2020,"2020",1895,"Illinois","04000US17","illinois",30074,0.00236502140110807
+2,"American Indian & Alaska Native Alone",0,"Not Hispanic or Latino",2020,"2020",837,"Illinois","04000US17","illinois",13301,0.001045991542732541
+2,"American Indian & Alaska Native Alone",1,"Hispanic or Latino",2020,"2020",2175,"Illinois","04000US17","illinois",20671,0.0016255688429309342
+3,"Asian Alone",0,"Not Hispanic or Latino",2020,"2020",3345,"Illinois","04000US17","illinois",702457,0.055241266155422346
+3,"Asian Alone",1,"Hispanic or Latino",2020,"2020",933,"Illinois","04000US17","illinois",7110,0.0005591308825523168
+4,"Native Hawaiian & Other Pacific Islander Alone",0,"Not Hispanic or Latino",2020,"2020",427,"Illinois","04000US17","illinois",3305,0.0002599054243087774
+4,"Native Hawaiian & Other Pacific Islander Alone",1,"Hispanic or Latino",2020,"2020",384,"Illinois","04000US17","illinois",1891,0.00014870836834127022
+5,"Some Other Race Alone",0,"Not Hispanic or Latino",2020,"2020",1969,"Illinois","04000US17","illinois",24851,0.0019542843266255453
+5,"Some Other Race Alone",1,"Hispanic or Latino",2020,"2020",11279,"Illinois","04000US17","illinois",732299,0.05758804306078468
+6,"Two or More Races",0,"Not Hispanic or Latino",2020,"2020",6351.726851809672,"Illinois","04000US17","illinois",277509,0.021823326594403784
+6,"Two or More Races",1,"Hispanic or Latino",2020,"2020",7740.65862830806,"Illinois","04000US17","illinois",262043,0.020607079304733725
+0,"White Alone",0,"Not Hispanic or Latino",2019,"2019",1090,"Illinois","04000US17","illinois",7829850,0.6131137921062788
+0,"White Alone",1,"Hispanic or Latino",2019,"2019",11162,"Illinois","04000US17","illinois",1305053,0.10219173978169128
+1,"Black or African American Alone",0,"Not Hispanic or Latino",2019,"2019",3752.9999999999995,"Illinois","04000US17","illinois",1783708,0.1396726598709179
+1,"Black or African American Alone",1,"Hispanic or Latino",2019,"2019",1933,"Illinois","04000US17","illinois",29882,0.002339900040961171
+2,"American Indian & Alaska Native Alone",0,"Not Hispanic or Latino",2019,"2019",850.9999999999999,"Illinois","04000US17","illinois",15108,0.0011830268997671297
+2,"American Indian & Alaska Native Alone",1,"Hispanic or Latino",2019,"2019",1834.0000000000002,"Illinois","04000US17","illinois",18352,0.0014370472375249117
+3,"Asian Alone",0,"Not Hispanic or Latino",2019,"2019",2563,"Illinois","04000US17","illinois",692370,0.054215801866015864
+3,"Asian Alone",1,"Hispanic or Latino",2019,"2019",727,"Illinois","04000US17","illinois",6154,0.0004818869169424753
+4,"Native Hawaiian & Other Pacific Islander Alone",0,"Not Hispanic or Latino",2019,"2019",338,"Illinois","04000US17","illinois",2908,0.00022770996985192038
+4,"Native Hawaiian & Other Pacific Islander Alone",1,"Hispanic or Latino",2019,"2019",427,"Illinois","04000US17","illinois",1569,0.00012286002156040683
+5,"Some Other Race Alone",0,"Not Hispanic or Latino",2019,"2019",1424,"Illinois","04000US17","illinois",20480,0.0016036795675953678
+5,"Some Other Race Alone",1,"Hispanic or Latino",2019,"2019",11668,"Illinois","04000US17","illinois",736751,0.05769104126491479
+6,"Two or More Races",0,"Not Hispanic or Latino",2019,"2019",5076.612748674062,"Illinois","04000US17","illinois",239820,0.018779025092808647
+6,"Two or More Races",1,"Hispanic or Latino",2019,"2019",3508.521198453844,"Illinois","04000US17","illinois",88626,0.0069398293631692904
+0,"White Alone",0,"Not Hispanic or Latino",2018,"2018",1461,"Illinois","04000US17","illinois",7894286,0.6157070426331652
+0,"White Alone",1,"Hispanic or Latino",2018,"2018",10472,"Illinois","04000US17","illinois",1294899,0.10099436906626426
+1,"Black or African American Alone",0,"Not Hispanic or Latino",2018,"2018",3855.0000000000005,"Illinois","04000US17","illinois",1796057,0.1400816924887944
+1,"Black or African American Alone",1,"Hispanic or Latino",2018,"2018",2243,"Illinois","04000US17","illinois",28068,0.002189135948789755
+2,"American Indian & Alaska Native Alone",0,"Not Hispanic or Latino",2018,"2018",817,"Illinois","04000US17","illinois",15037,0.0011727959691446327
+2,"American Indian & Alaska Native Alone",1,"Hispanic or Latino",2018,"2018",1804,"Illinois","04000US17","illinois",16827,0.0013124052518984327
+3,"Asian Alone",0,"Not Hispanic or Latino",2018,"2018",2738,"Illinois","04000US17","illinois",685343,0.05345265065381991
+3,"Asian Alone",1,"Hispanic or Latino",2018,"2018",839,"Illinois","04000US17","illinois",5479,0.00042732919564696694
+4,"Native Hawaiian & Other Pacific Islander Alone",0,"Not Hispanic or Latino",2018,"2018",386,"Illinois","04000US17","illinois",3088,0.00024084551125348313
+4,"Native Hawaiian & Other Pacific Islander Alone",1,"Hispanic or Latino",2018,"2018",374,"Illinois","04000US17","illinois",1494,0.00011652305499116055
+5,"Some Other Race Alone",0,"Not Hispanic or Latino",2018,"2018",1493,"Illinois","04000US17","illinois",20105,0.0015680696255671238
+5,"Some Other Race Alone",1,"Hispanic or Latino",2018,"2018",10880,"Illinois","04000US17","illinois",742401,0.05790283303111953
+6,"Two or More Races",0,"Not Hispanic or Latino",2018,"2018",4755.50144569424,"Illinois","04000US17","illinois",232739,0.01815224852448977
+6,"Two or More Races",1,"Hispanic or Latino",2018,"2018",3500.5371016459744,"Illinois","04000US17","illinois",85674,0.006682059045055347
+0,"White Alone",0,"Not Hispanic or Latino",2017,"2017",1458,"Illinois","04000US17","illinois",7955484,0.6188858305627138
+0,"White Alone",1,"Hispanic or Latino",2017,"2017",10740,"Illinois","04000US17","illinois",1281217,0.09967049737967779
+1,"Black or African American Alone",0,"Not Hispanic or Latino",2017,"2017",3175,"Illinois","04000US17","illinois",1806398,0.14052622399301226
+1,"Black or African American Alone",1,"Hispanic or Latino",2017,"2017",1522,"Illinois","04000US17","illinois",27103,0.0021084402489831206
+2,"American Indian & Alaska Native Alone",0,"Not Hispanic or Latino",2017,"2017",889.0000000000001,"Illinois","04000US17","illinois",14458,0.0011247400331992016
+2,"American Indian & Alaska Native Alone",1,"Hispanic or Latino",2017,"2017",1646,"Illinois","04000US17","illinois",15238,0.0011854190500684351
+3,"Asian Alone",0,"Not Hispanic or Latino",2017,"2017",2728,"Illinois","04000US17","illinois",666890,0.05187978148708089
+3,"Asian Alone",1,"Hispanic or Latino",2017,"2017",689,"Illinois","04000US17","illinois",4921,0.00038282236155576645
+4,"Native Hawaiian & Other Pacific Islander Alone",0,"Not Hispanic or Latino",2017,"2017",403,"Illinois","04000US17","illinois",2979,0.0002317471682736493
+4,"Native Hawaiian & Other Pacific Islander Alone",1,"Hispanic or Latino",2017,"2017",319,"Illinois","04000US17","illinois",1296,0.00010082052033657251
+5,"Some Other Race Alone",0,"Not Hispanic or Latino",2017,"2017",1543,"Illinois","04000US17","illinois",19061,0.0014828240263390499
+5,"Some Other Race Alone",1,"Hispanic or Latino",2017,"2017",11107,"Illinois","04000US17","illinois",748084,0.05819615596872261
+6,"Two or More Races",0,"Not Hispanic or Latino",2017,"2017",3769.1229749107424,"Illinois","04000US17","illinois",227186,0.017673619392889323
+6,"Two or More Races",1,"Hispanic or Latino",2017,"2017",3646.527114941009,"Illinois","04000US17","illinois",84211,0.006551077807147459
+0,"White Alone",0,"Not Hispanic or Latino",2016,"2016",1824.0000000000002,"Illinois","04000US17","illinois",7996856,0.6222418789630993
+0,"White Alone",1,"Hispanic or Latino",2016,"2016",9329,"Illinois","04000US17","illinois",1274051,0.09913494605064986
+1,"Black or African American Alone",0,"Not Hispanic or Latino",2016,"2016",3810.0000000000005,"Illinois","04000US17","illinois",1810559,0.14088107052741103
+1,"Black or African American Alone",1,"Hispanic or Latino",2016,"2016",1848,"Illinois","04000US17","illinois",27053,0.0021050159652229233
+2,"American Indian & Alaska Native Alone",0,"Not Hispanic or Latino",2016,"2016",743,"Illinois","04000US17","illinois",14378,0.0011187638911756622
+2,"American Indian & Alaska Native Alone",1,"Hispanic or Latino",2016,"2016",1769,"Illinois","04000US17","illinois",15021,0.00116879624491234
+3,"Asian Alone",0,"Not Hispanic or Latino",2016,"2016",2612,"Illinois","04000US17","illinois",650929,0.05064931568501062
+3,"Asian Alone",1,"Hispanic or Latino",2016,"2016",561,"Illinois","04000US17","illinois",4870,0.00037893866671480565
+4,"Native Hawaiian & Other Pacific Islander Alone",0,"Not Hispanic or Latino",2016,"2016",345,"Illinois","04000US17","illinois",2994,0.00023296557867435894
+4,"Native Hawaiian & Other Pacific Islander Alone",1,"Hispanic or Latino",2016,"2016",334,"Illinois","04000US17","illinois",1192,0.00009275049090842881
+5,"Some Other Race Alone",0,"Not Hispanic or Latino",2016,"2016",1398,"Illinois","04000US17","illinois",18545,0.0014430015552825606
+5,"Some Other Race Alone",1,"Hispanic or Latino",2016,"2016",9890,"Illinois","04000US17","illinois",735014,0.05719203802396635
+6,"Two or More Races",0,"Not Hispanic or Latino",2016,"2016",4826.02610850791,"Illinois","04000US17","illinois",220949,0.017192221657488623
+6,"Two or More Races",1,"Hispanic or Latino",2016,"2016",2954.805746576245,"Illinois","04000US17","illinois",79273,0.006168296699483118
+0,"White Alone",0,"Not Hispanic or Latino",2015,"2015",1771,"Illinois","04000US17","illinois",8041878,0.6246719975615518
+0,"White Alone",1,"Hispanic or Latino",2015,"2015",10357,"Illinois","04000US17","illinois",1270893,0.09871963601002069
+1,"Black or African American Alone",0,"Not Hispanic or Latino",2015,"2015",3661.9999999999995,"Illinois","04000US17","illinois",1818938,0.14129033465822458
+1,"Black or African American Alone",1,"Hispanic or Latino",2015,"2015",1764.9999999999998,"Illinois","04000US17","illinois",27170,0.0021104943613602894
+2,"American Indian & Alaska Native Alone",0,"Not Hispanic or Latino",2015,"2015",783,"Illinois","04000US17","illinois",14228,0.0011051937347601839
+2,"American Indian & Alaska Native Alone",1,"Hispanic or Latino",2015,"2015",1625,"Illinois","04000US17","illinois",14135,0.0010979697386024178
+3,"Asian Alone",0,"Not Hispanic or Latino",2015,"2015",2430,"Illinois","04000US17","illinois",641068,0.049796481385665
+3,"Asian Alone",1,"Hispanic or Latino",2015,"2015",565,"Illinois","04000US17","illinois",4574,0.0003552963271572309
+4,"Native Hawaiian & Other Pacific Islander Alone",0,"Not Hispanic or Latino",2015,"2015",368,"Illinois","04000US17","illinois",2567,0.00019939782942995446
+4,"Native Hawaiian & Other Pacific Islander Alone",1,"Hispanic or Latino",2015,"2015",232.99999999999997,"Illinois","04000US17","illinois",840,0.00006524899755401705
+5,"Some Other Race Alone",0,"Not Hispanic or Latino",2015,"2015",1644,"Illinois","04000US17","illinois",17388,0.0013506542493681528
+5,"Some Other Race Alone",1,"Hispanic or Latino",2015,"2015",11395,"Illinois","04000US17","illinois",730545,0.0567468201405945
+6,"Two or More Races",0,"Not Hispanic or Latino",2015,"2015",4469.320418139653,"Illinois","04000US17","illinois",214853,0.01668921770413479
+6,"Two or More Races",1,"Hispanic or Latino",2015,"2015",3066.648496322981,"Illinois","04000US17","illinois",74684,0.005801257301576439
+0,"White Alone",0,"Not Hispanic or Latino",2014,"2014",1797,"Illinois","04000US17","illinois",8088630,0.6285483738238073
+0,"White Alone",1,"Hispanic or Latino",2014,"2014",10190,"Illinois","04000US17","illinois",1242746,0.09657086272657314
+1,"Black or African American Alone",0,"Not Hispanic or Latino",2014,"2014",3559,"Illinois","04000US17","illinois",1822304,0.1416069489904495
+1,"Black or African American Alone",1,"Hispanic or Latino",2014,"2014",1812.9999999999998,"Illinois","04000US17","illinois",26750,0.002078679454961699
+2,"American Indian & Alaska Native Alone",0,"Not Hispanic or Latino",2014,"2014",865.0000000000001,"Illinois","04000US17","illinois",14685,0.0011411367400415908
+2,"American Indian & Alaska Native Alone",1,"Hispanic or Latino",2014,"2014",1314,"Illinois","04000US17","illinois",13850,0.0010762508579895153
+3,"Asian Alone",0,"Not Hispanic or Latino",2014,"2014",2373,"Illinois","04000US17","illinois",622689,0.04838769462170637
+3,"Asian Alone",1,"Hispanic or Latino",2014,"2014",561,"Illinois","04000US17","illinois",4713,0.00036623612228913973
+4,"Native Hawaiian & Other Pacific Islander Alone",0,"Not Hispanic or Latino",2014,"2014",336,"Illinois","04000US17","illinois",2564,0.00019924239710361857
+4,"Native Hawaiian & Other Pacific Islander Alone",1,"Hispanic or Latino",2014,"2014",179,"Illinois","04000US17","illinois",676,0.00005253036678706948
+5,"Some Other Race Alone",0,"Not Hispanic or Latino",2014,"2014",1603,"Illinois","04000US17","illinois",16926,0.0013152795683993165
+5,"Some Other Race Alone",1,"Hispanic or Latino",2014,"2014",11275,"Illinois","04000US17","illinois",734322,0.057062431952388214
+6,"Two or More Races",0,"Not Hispanic or Latino",2014,"2014",4702.052743217583,"Illinois","04000US17","illinois",205454,0.015965346121110315
+6,"Two or More Races",1,"Hispanic or Latino",2014,"2014",2943.327538688143,"Illinois","04000US17","illinois",72438,0.0056289862563931045
+0,"White Alone",0,"Not Hispanic or Latino",2013,"2013",2071,"Illinois","04000US17","illinois",8126804,0.6325072844773039
+0,"White Alone",1,"Hispanic or Latino",2013,"2013",11571,"Illinois","04000US17","illinois",1194106,0.09293699508909718
+1,"Black or African American Alone",0,"Not Hispanic or Latino",2013,"2013",3574,"Illinois","04000US17","illinois",1825101,0.14204719067997845
+1,"Black or African American Alone",1,"Hispanic or Latino",2013,"2013",1873,"Illinois","04000US17","illinois",26423,0.0020564960072549797
+2,"American Indian & Alaska Native Alone",0,"Not Hispanic or Latino",2013,"2013",777,"Illinois","04000US17","illinois",14733,0.0011466659983683767
+2,"American Indian & Alaska Native Alone",1,"Hispanic or Latino",2013,"2013",1497,"Illinois","04000US17","illinois",12815,0.0009973884999043472
+3,"Asian Alone",0,"Not Hispanic or Latino",2013,"2013",2257,"Illinois","04000US17","illinois",605095,0.047094404553228324
+3,"Asian Alone",1,"Hispanic or Latino",2013,"2013",648,"Illinois","04000US17","illinois",4828,0.0003757621285632609
+4,"Native Hawaiian & Other Pacific Islander Alone",0,"Not Hispanic or Latino",2013,"2013",340,"Illinois","04000US17","illinois",2446,0.00019037161691502405
+4,"Native Hawaiian & Other Pacific Islander Alone",1,"Hispanic or Latino",2013,"2013",186,"Illinois","04000US17","illinois",533,0.00004148326729996232
+5,"Some Other Race Alone",0,"Not Hispanic or Latino",2013,"2013",1734,"Illinois","04000US17","illinois",17221,0.0013403064656147298
+5,"Some Other Race Alone",1,"Hispanic or Latino",2013,"2013",12148,"Illinois","04000US17","illinois",752747,0.05858612572278561
+6,"Two or More Races",0,"Not Hispanic or Latino",2013,"2013",4157.1934042091425,"Illinois","04000US17","illinois",196448,0.015289502616403371
+6,"Two or More Races",1,"Hispanic or Latino",2013,"2013",3162.0894990496395,"Illinois","04000US17","illinois",69254,0.0053900228772825335
